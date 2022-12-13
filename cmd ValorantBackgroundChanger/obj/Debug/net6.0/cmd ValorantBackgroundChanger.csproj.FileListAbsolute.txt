@@ -1,0 +1,19 @@
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.csproj.AssemblyReference.cache
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.AssemblyInfoInputs.cache
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.AssemblyInfo.cs
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.csproj.CoreCompileInputs.cache
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\cmd ValorantBackgroundChanger.exe
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\cmd ValorantBackgroundChanger.deps.json
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\cmd ValorantBackgroundChanger.runtimeconfig.json
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\cmd ValorantBackgroundChanger.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\cmd ValorantBackgroundChanger.pdb
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\System.Management.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.csproj.CopyComplete
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\refint\cmd ValorantBackgroundChanger.dll
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.pdb
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\cmd ValorantBackgroundChanger.genruntimeconfig.cache
+C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\obj\Debug\net6.0\ref\cmd ValorantBackgroundChanger.dll

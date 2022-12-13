@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtwmIe5HL+YDSqR2OLZz5mtLN8AnLpn/oR7H/kZacxCdrWtwyYnQ5BqBgWkAe+57KHfkBgcFlZBmRRhGnL5OZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victor\\Documents\\GitHub\\C-Sharp\\Valorant wallpaper application\\cmd ValorantBackgroundChanger\\cmd ValorantBackgroundChanger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victor\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\victor\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
