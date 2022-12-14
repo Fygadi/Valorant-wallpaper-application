@@ -6,9 +6,8 @@
 //*Red   = Action Information didn't worked correctly *
 //*****************************************************
 
-WallPaperChanger wallPaper = new("ThisIsTheOriginalWallpaper.TITOWP");
+WallPaperChanger wallPaper = new("WALLPAPER");
 Thread.Sleep(Timeout.Infinite);
-
 
 public static class DataContainer
 {

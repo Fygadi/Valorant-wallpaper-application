@@ -9,7 +9,6 @@ namespace MyRegistry_NameSpace
         public const string MyHiveAndPath = MyHive + @"\" + MyPath;
         public const string MyNameNewWallPaper = "NewWallPaper";
         public const string MyNameTimerDelay = "TimerDelay";
-
         public const string MyQueryPath = @"\\SOFTWARE\\ValorantWallPaper";
 
         /// <summary>
@@ -23,9 +22,7 @@ namespace MyRegistry_NameSpace
             RegistryKey key = Registry.CurrentUser.OpenSubKey(MyPath, false);
             key.GetValue(MyNameNewWallPaper);
             if (key != null)
-            {
                 WallPaperPath = key.GetValue(MyNameNewWallPaper).ToString();
-            }
             return WallPaperPath;
         }
 
