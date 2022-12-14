@@ -1,11 +1,11 @@
-﻿using WallPaperChanger_NameSpace;
+﻿using MyRegistry_NameSpace;
+using WallPaperChanger_NameSpace;
 
 //******************************************************
 //*Cyan  = variable information                       *
 //*Green = Action Information worked correctly        *
 //*Red   = Action Information didn't worked correctly *
 //*****************************************************
-
 WallPaperChanger wallPaper = new("WALLPAPER");
 Thread.Sleep(Timeout.Infinite);
 

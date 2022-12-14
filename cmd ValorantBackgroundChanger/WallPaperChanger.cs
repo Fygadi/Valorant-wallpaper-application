@@ -3,11 +3,10 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Management;
 
+using MyRegistry_NameSpace;
 using TimerWallPaper_NameSpace;
 using ProcessWatchEvent_NameSpace;
 using WmiKeyChangeEvent_NameSpace;
-using MyRegistry_NameSpace;
-using System.IO;
 
 namespace WallPaperChanger_NameSpace
 {
@@ -57,7 +56,6 @@ namespace WallPaperChanger_NameSpace
 			}
 			else
 			{
-
 				ValorantStop();
 				//UnnameOriginalWallPaper();
 			}

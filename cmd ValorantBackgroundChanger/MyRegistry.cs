@@ -11,13 +11,11 @@ namespace MyRegistry_NameSpace
         public const string MyNameTimerDelay = "TimerDelay";
         public const string MyQueryPath = @"\\SOFTWARE\\ValorantWallPaper";
 
-        /// <summary>
-        /// Get the the path of the file or folder selected
-        /// </summary>
+        /// <summary>Get the the path of the file or folder selected</summary>
         /// <returns>The full path or null if the key dosen't exist</returns>
         public static string GetWallPaperPath()
         {
-            string WallPaperPath = null;
+			string WallPaperPath = null;
 
             RegistryKey key = Registry.CurrentUser.OpenSubKey(MyPath, false);
             key.GetValue(MyNameNewWallPaper);
