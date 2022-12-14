@@ -43,6 +43,7 @@ namespace WallPaperChanger_NameSpace
 			foreach (string file in Directory.GetFiles(valBackgroundDirectory, "*.mp4"))
 				valorantWallpaper.Add(file);
 
+			MyRegistry.SetDefaultWallPapers(valorantWallpaper.ToArray());
 			if (ValorantIsRunning())
 			{
 				ValorantStart();

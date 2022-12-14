@@ -34,5 +34,26 @@ namespace MyRegistry_NameSpace
 
             return timerDelay;
         }
+
+        public static void SetDefaultWallPapers(string[] wallpapers = null)
+        {
+            string stringOut = "";
+
+            if (wallpapers != null)
+            {
+                for (int i = 0; i < wallpapers.Length; i++)
+                {
+                    stringOut += Path.GetFileNameWithoutExtension(wallpapers[i]);
+
+                    if (i < wallpapers.Length-1)
+                        stringOut += "|";
+                }
+            }
+            Console.WriteLine("string out = " + stringOut);
+
+            //set value in registy
+        }
+
+        //public static string[] GetWallpapers() { }
     }
 }
