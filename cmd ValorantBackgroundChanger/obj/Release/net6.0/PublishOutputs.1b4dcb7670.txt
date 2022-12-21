@@ -1,8 +1,0 @@
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\cmd ValorantBackgroundChanger.exe
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\cmd ValorantBackgroundChanger.dll
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\cmd ValorantBackgroundChanger.deps.json
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\cmd ValorantBackgroundChanger.runtimeconfig.json
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\cmd ValorantBackgroundChanger.pdb
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\System.CodeDom.dll
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\System.Management.dll
-C:\Users\victor\Documents\Visual Studio 2022\Project\cmd ValorantBackgroundChanger\runtimes\win\lib\net6.0\System.Management.dll

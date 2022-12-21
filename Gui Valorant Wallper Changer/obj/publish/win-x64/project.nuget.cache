@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gx0+0iuVRxbY2XfM6h2oyvbuUH2yaIeuyivmAUtiRKzolh2P4JaGUiJ7tPV7Q/USXiSK2gJAakx/OiDMNQMADQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victor\\Documents\\GitHub\\C-Sharp\\Valorant wallpaper application\\Gui Valorant Wallper Changer\\Gui Valorant Wallper Changer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victor\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.1\\microsoft.netcore.app.runtime.win-x64.7.0.1.nupkg.sha512",
+    "C:\\Users\\victor\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.1.nupkg.sha512",
+    "C:\\Users\\victor\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.1\\microsoft.aspnetcore.app.runtime.win-x64.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
