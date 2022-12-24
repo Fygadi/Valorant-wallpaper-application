@@ -7,6 +7,7 @@
     <UserSecretsId>dotnet-Service_Valorant_WallPaper_Changer-a6f38c63-bbe5-44b3-9eb2-c439d5049a7b</UserSecretsId>
     <RootNamespace>Service_Valorant_WallPaper_Changer</RootNamespace>
     <ApplicationIcon>WorkerService icon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>

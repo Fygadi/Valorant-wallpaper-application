@@ -314,7 +314,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Valorant Wallpaper Changer"
         "ProductCode" = "8:{7A66A51C-40D4-4F49-8CE4-93B497ACDC53}"
-        "PackageCode" = "8:{57882F52-E1BF-4C9E-A6A0-C38019B6F22E}"
+        "PackageCode" = "8:{79917F13-2AAF-4E9E-966F-85DB88848533}"
         "UpgradeCode" = "8:{63B0721C-150E-4765-8092-034AC7CD6F31}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -401,21 +401,13 @@
                                 }
                                 "Values"
                                 {
-                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0FFE9FBC04E341B481FE21E7B7226174"
-                                    {
-                                    "Name" = "8:ValorantDefaultWallPapers"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "ValueTypes" = "3:1"
-                                    "Value" = "8:"
-                                    }
                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_4E0CE06FBED3496EA9F7F213C96A1B33"
                                     {
                                     "Name" = "8:NewWallPaper"
                                     "Condition" = "8:"
                                     "Transitive" = "11:FALSE"
                                     "ValueTypes" = "3:1"
-                                    "Value" = "8:[ProgramFiles64Folder]\\[ProductName]\\Resources\\Wallpaper Example\\Wallpaper example.mp4"
+                                    "Value" = "8:[ProgramFiles64Folder]\\[ProductName]\\Resources\\Wallpaper Example\\Resources\\Wallpaper Example"
                                     }
                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C905D3329F5147A69E80CFD13178C98E"
                                     {
@@ -498,7 +490,7 @@
                 {
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F9E47C0D93BB409B97F7EEE97412412F"
                     {
-                    "Sequence" = "3:100"
+                    "Sequence" = "3:120"
                     "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
@@ -887,7 +879,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_311FB277C541431080E5A4E4E67415DC"
             {
-            "SourcePath" = "8:..\\Service Valorant WallPaper Changer\\obj\\Release\\net7.0\\apphost.exe"
+            "SourcePath" = "8:..\\Service Valorant WallPaper Changer\\obj\\Release\\net7.0\\win-x64\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5E5A5B5D8DF44626925A603606E3F9D4"
@@ -916,7 +908,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5B8A7DC9396444518E38A0EE0C0E8ACD"
             {
-            "SourcePath" = "8:..\\Gui Valorant Wallper Changer\\obj\\Release\\net7.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\Gui Valorant Wallper Changer\\obj\\Release\\net7.0-windows\\win-x64\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5778E269BFF64309AC27650FEBA29D48"

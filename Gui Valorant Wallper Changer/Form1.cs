@@ -1,10 +1,17 @@
+using Microsoft.VisualBasic.Devices;
 using Microsoft.Win32;
+using System.Windows.Forms;
 using System.Windows.Forms.Design;
+using static System.Windows.Forms.DataFormats;
 
 namespace Gui_Valorant_Wallper_Changer
 {
 	public partial class Form1 : Form
 	{
+		private bool pressingKeyControl = false;
+		private bool pressingKeyShift = false;
+		private bool pressingKeyR = false;
+		private bool pressingKeyA = false;
 		public Form1()
 		{
 			InitializeComponent();
@@ -178,7 +185,40 @@ namespace Gui_Valorant_Wallper_Changer
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			lblInformation.Text = "The current timer delay is " + TxtBoxTimer.Text + " " + TimerDelayFormat();
+			this.Location = MyRegistry.GetGUILastPosition(this.Size);
+			TxtBoxSelectedPath.Text = MyRegistry.GetWallPaperPath();
+		}
+
+		private void Form1_FormClosed(object sender, FormClosedEventArgs e) => MyRegistry.SetGUILastPosition(this.Location);
+
+		private void Form1_KeyDown(object sender, KeyEventArgs e)
+		{
+			switch (e.KeyCode)
+			{
+				case Keys.Escape: this.Close(); break;
+				case Keys.ControlKey: pressingKeyControl = true; break;
+				case Keys.ShiftKey: pressingKeyShift = true; break;
+				case Keys.A: pressingKeyA = true; break;
+				case Keys.R: pressingKeyR = true; break;
+			}
+
+			if (pressingKeyControl && pressingKeyR)
+				this.Location = new Point(Screen.PrimaryScreen.Bounds.Width / 2 - this.Width / 2,
+										  Screen.PrimaryScreen.Bounds.Height / 2 - this.Height / 2);
+
+			if (pressingKeyControl && pressingKeyShift && pressingKeyA)
+				lblCreatedBy.Visible = !lblCreatedBy.Visible;
+		}
+
+		private void Form1_KeyUp(object sender, KeyEventArgs e)
+		{
+			switch (e.KeyCode)
+			{
+				case Keys.ControlKey: pressingKeyControl = false; break;
+				case Keys.ShiftKey: pressingKeyShift = false; break;
+				case Keys.A: pressingKeyA = false; break;
+				case Keys.R: pressingKeyR = false; break;
+			}
 		}
 	}
 }

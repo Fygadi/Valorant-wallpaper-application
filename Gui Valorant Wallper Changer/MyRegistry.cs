@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Gui_Valorant_Wallper_Changer;
+using Microsoft.Win32;
 
 public static class MyRegistry
 {
@@ -7,19 +8,18 @@ public static class MyRegistry
 	public const string MyHiveAndPath = MyHive + @"\" + MyPath;
 	public const string MyNameNewWallPaper = "NewWallpaper";
 	public const string MyNameTimerDelay = "TimerDelay";
+	public const string MyGUILastPosition = "GUILastLocation";
 
 	public static string GetWallPaperPath()
 	{
-		string WallPaperPath = null;
+		string WallPaperPath = "";
 
 		RegistryKey key = Registry.CurrentUser.OpenSubKey(MyPath, true);
 		key.CreateSubKey(MyNameNewWallPaper);
 		if (key != null)
 		{
 			WallPaperPath = key.GetValue(MyNameNewWallPaper).ToString();
-			Console.WriteLine("WallPaperPath = " + WallPaperPath);
 		}
-		else Console.WriteLine("WallPaperPath = NULL");
 
 		return WallPaperPath;
 	}
@@ -37,33 +37,41 @@ public static class MyRegistry
 
 	public static void SetWallPaperPath(string value)
 	{
-		RegistryKey key = Registry.CurrentUser.OpenSubKey(MyRegistry.MyPath, true);
-		if (key != null)
-		{
+		RegistryKey key = Registry.CurrentUser.CreateSubKey(MyRegistry.MyPath, true);
 			key.SetValue(MyRegistry.MyNameNewWallPaper, value);
 			key.Close();
-		}
-		else
-		{
-			key = Registry.CurrentUser.CreateSubKey(MyRegistry.MyPath);
-			key.SetValue(MyRegistry.MyNameNewWallPaper, value);
-			key.Close();
-		}
 	}
 
 	public static void SetTimerDelay(int value)
 	{
-		RegistryKey key = Registry.CurrentUser.OpenSubKey(MyRegistry.MyPath, true);
-		if (key != null)
+		RegistryKey key = Registry.CurrentUser.CreateSubKey(MyRegistry.MyPath, true);
+		key.SetValue(MyRegistry.MyNameTimerDelay, value);
+		key.Close();
+	}
+
+	public static Point GetGUILastPosition(Size formSize)
+	{
+		Point lastPosition = new Point(Screen.PrimaryScreen.Bounds.Width / 2 - formSize.Width / 2,
+									   Screen.PrimaryScreen.Bounds.Height / 2 - formSize.Height / 2);
+
+		RegistryKey key = Registry.CurrentUser.OpenSubKey(MyPath, false);
+		if (key.GetValue(MyGUILastPosition) != null)
 		{
-			key.SetValue(MyRegistry.MyNameTimerDelay, value);
-			key.Close();
+			try
+			{
+				string[] value = key.GetValue(MyGUILastPosition).ToString().Split(',');
+
+				lastPosition = new Point(int.Parse(value[0]), int.Parse(value[1]));
+			}
+			catch { }
 		}
-		else
-		{
-			key = Registry.CurrentUser.CreateSubKey(MyRegistry.MyPath);
-			key.SetValue(MyRegistry.MyNameTimerDelay, value);
-			key.Close();
-		}
+		return lastPosition;
+	}
+
+	public static void SetGUILastPosition(Point point)
+	{
+		RegistryKey key = Registry.CurrentUser.CreateSubKey(MyRegistry.MyPath, true);
+		key.SetValue(MyRegistry.MyGUILastPosition, point.X + ", " + point.Y);
+
 	}
 }

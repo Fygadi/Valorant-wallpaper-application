@@ -2,17 +2,12 @@
 using System.Diagnostics;
 using System.Reflection;
 using System.Management;
-
-using MyRegistry_NameSpace;
-using TimerWallPaper_NameSpace;
-using ProcessWatchEvent_NameSpace;
-using WmiKeyChangeEvent_NameSpace;
 using System.Collections.Generic;
 using System;
 using System.IO;
 using System.Linq;
 
-namespace WallPaperChanger_NameSpace
+namespace Service_Valorant_WallPaper_Changer
 {
 	public class WallPaperChanger
 	{
@@ -39,9 +34,9 @@ namespace WallPaperChanger_NameSpace
 			ShowGlobalVariableInformation();
 
 			//create objects
-			wmiKeyChange = new((Action<object, EventArrivedEventArgs>)this.WmiWallPaperKeyChange, (Action<object, EventArrivedEventArgs>)this.WmiTimerKeyChange);
-			processWatch = new((Action)this.ValorantStart, (Action)this.ValorantStop);
-			timerNextWallPaper = new TimerWallPaper(this.TimerEventNextWallPaper);
+			wmiKeyChange = new(WmiWallPaperKeyChange, WmiTimerKeyChange);
+			processWatch = new(ValorantStart, ValorantStop);
+			timerNextWallPaper = new TimerWallPaper(TimerEventNextWallPaper);
 
 			valorantWallpaper.Clear();
 			foreach (string file in Directory.GetFiles(valBackgroundDirectory, "*.mp4"))
@@ -67,17 +62,17 @@ namespace WallPaperChanger_NameSpace
 		}
 
 		/// <summary> Check if the orignal wallPaper is renamed </summary>
-	   private bool AllOriginalWallPaperAreNamed()
-	   {
-		   bool isRenamed = false;
+		private bool AllOriginalWallPaperAreNamed()
+		{
+			bool isRenamed = false;
 
-		   Console.WriteLine("directory files = " + Directory.GetFiles(valBackgroundDirectory, "*" + newFileExtension).Count());
-		   Console.WriteLine("array file = " + valorantWallpaper.Count);
-		   if (Directory.GetFiles(valBackgroundDirectory, "*." + newFileExtension).Count() == valorantWallpaper.Count())
-			   isRenamed = true;
-		   return isRenamed;
+			Console.WriteLine("directory files = " + Directory.GetFiles(valBackgroundDirectory, "*" + newFileExtension).Count());
+			Console.WriteLine("array file = " + valorantWallpaper.Count);
+			if (Directory.GetFiles(valBackgroundDirectory, "*." + newFileExtension).Count() == valorantWallpaper.Count())
+				isRenamed = true;
+			return isRenamed;
 
-	   }
+		}
 		/// <summary> Check if the new wallpaper is set </summary>
 		private bool NewWallPaperIsSet()
 		{
@@ -229,7 +224,7 @@ namespace WallPaperChanger_NameSpace
 				Console.WriteLine("Valorant is not instaled");
 				Console.WriteLine("Press on a key to exit");
 				Console.ReadKey();
-				System.Environment.Exit(0);
+				Environment.Exit(0);
 			}
 			return directory + @"/ShooterGame/Content/Movies/Menu/";
 		}
@@ -275,7 +270,7 @@ namespace WallPaperChanger_NameSpace
 			timerNextWallPaper.StopTimer();
 		}
 
-		public void TimerEventNextWallPaper(Object stateInfo)
+		public void TimerEventNextWallPaper(object stateInfo)
 		{
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("The Elapsed event was raised at " + DateTime.Now.ToString("HH:mm:ss"));
@@ -319,15 +314,15 @@ namespace WallPaperChanger_NameSpace
 			Console.Write(valBackgroundDirectory);
 
 			Console.ForegroundColor = ConsoleColor.White;
-			Console.Write(("\"\nThe selected wallpaper type").PadRight(34) + "\"");
+			Console.Write("\"\nThe selected wallpaper type".PadRight(34) + "\"");
 			Console.ForegroundColor = ConsoleColor.Cyan;
 			Console.Write(GetWallPaperType());
 
 			Console.ForegroundColor = ConsoleColor.White;
 			if (GetWallPaperType() == "mp4File")
-				Console.Write(("\"\nThe selected file name").PadRight(34) + "\"");
+				Console.Write("\"\nThe selected file name".PadRight(34) + "\"");
 			else
-				Console.Write(("\"\nThe selected directory name").PadRight(34) + "\"");
+				Console.Write("\"\nThe selected directory name".PadRight(34) + "\"");
 
 			Console.ForegroundColor = ConsoleColor.Cyan;
 			Console.Write(Path.GetFileName(MyRegistry.GetWallPaperPath()));
