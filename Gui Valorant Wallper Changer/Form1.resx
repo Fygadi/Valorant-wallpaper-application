@@ -58,6 +58,508 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ButtOpenFileExplorer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtOpenFileExplorer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtOpenFileExplorer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtOpenFileExplorer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ButtOpenFileExplorer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtOpenFileExplorer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtOpenFileExplorer.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ButtOpenFileExplorer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;ButtOpenFileExplorer.Name" xml:space="preserve">
+    <value>ButtOpenFileExplorer</value>
+  </data>
+  <data name="&gt;&gt;ButtOpenFileExplorer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtOpenFileExplorer.Parent" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;ButtOpenFileExplorer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 26</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 99</value>
+  </data>
+  <data name="TxtBoxSelectedPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TxtBoxSelectedPath.Text" xml:space="preserve">
+    <value>Your File/Folder path
+will be show here</value>
+  </data>
+  <data name="TxtBoxSelectedPath.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxSelectedPath.Name" xml:space="preserve">
+    <value>TxtBoxSelectedPath</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxSelectedPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxSelectedPath.Parent" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxSelectedPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 33</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 21</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CheckBoxFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxFolder.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CheckBoxFolder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="CheckBoxFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 89</value>
+  </data>
+  <data name="CheckBoxFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 21</value>
+  </data>
+  <data name="CheckBoxFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CheckBoxFolder.Text" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="CheckBoxFolder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFolder.Name" xml:space="preserve">
+    <value>CheckBoxFolder</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFolder.Parent" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFolder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CheckBoxFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxFile.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CheckBoxFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="CheckBoxFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 61</value>
+  </data>
+  <data name="CheckBoxFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 21</value>
+  </data>
+  <data name="CheckBoxFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="CheckBoxFile.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFile.Name" xml:space="preserve">
+    <value>CheckBoxFile</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFile.Parent" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TrackBarTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrackBarTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 64</value>
+  </data>
+  <data name="TrackBarTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 45</value>
+  </data>
+  <data name="TrackBarTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TrackBarTimer.Name" xml:space="preserve">
+    <value>TrackBarTimer</value>
+  </data>
+  <data name="&gt;&gt;TrackBarTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrackBarTimer.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;TrackBarTimer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CheckBoxSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxSeconds.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CheckBoxSeconds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="CheckBoxSeconds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 43</value>
+  </data>
+  <data name="CheckBoxSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="CheckBoxSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CheckBoxSeconds.Text" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="CheckBoxSeconds.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSeconds.Name" xml:space="preserve">
+    <value>CheckBoxSeconds</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSeconds.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSeconds.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CheckBoxMinutes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxMinutes.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CheckBoxMinutes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="CheckBoxMinutes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 68</value>
+  </data>
+  <data name="CheckBoxMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="CheckBoxMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CheckBoxMinutes.Text" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="CheckBoxMinutes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMinutes.Name" xml:space="preserve">
+    <value>CheckBoxMinutes</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMinutes.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMinutes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TxtBoxTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="TxtBoxTimer.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TxtBoxTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="TxtBoxTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TxtBoxTimer.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TxtBoxTimer.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxTimer.Name" xml:space="preserve">
+    <value>TxtBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxTimer.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;TxtBoxTimer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtOkTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="ButtOkTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtOkTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 25</value>
+  </data>
+  <data name="ButtOkTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 29</value>
+  </data>
+  <data name="ButtOkTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ButtOkTime.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;ButtOkTime.Name" xml:space="preserve">
+    <value>ButtOkTime</value>
+  </data>
+  <data name="&gt;&gt;ButtOkTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtOkTime.Parent" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;ButtOkTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 170</value>
+  </data>
+  <data name="groupBoxTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 102</value>
+  </data>
+  <data name="groupBoxTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBoxTimer.Text" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTimer.Name" xml:space="preserve">
+    <value>groupBoxTimer</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTimer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxWallpaperSelecteur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 9</value>
+  </data>
+  <data name="groupBoxWallpaperSelecteur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 147</value>
+  </data>
+  <data name="groupBoxWallpaperSelecteur.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBoxWallpaperSelecteur.Text" xml:space="preserve">
+    <value>Wallpaper Selecteur</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWallpaperSelecteur.Name" xml:space="preserve">
+    <value>groupBoxWallpaperSelecteur</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWallpaperSelecteur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWallpaperSelecteur.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWallpaperSelecteur.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblInformation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 171</value>
+  </data>
+  <data name="lblInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 57</value>
+  </data>
+  <data name="lblInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblInformation.Name" xml:space="preserve">
+    <value>lblInformation</value>
+  </data>
+  <data name="&gt;&gt;lblInformation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInformation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInformation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCreatedBy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreatedBy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt, style=Bold, Italic, Underline</value>
+  </data>
+  <data name="lblCreatedBy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCreatedBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 238</value>
+  </data>
+  <data name="lblCreatedBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 25</value>
+  </data>
+  <data name="lblCreatedBy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCreatedBy.Text" xml:space="preserve">
+    <value>Created by A creator</value>
+  </data>
+  <data name="lblCreatedBy.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblCreatedBy.Name" xml:space="preserve">
+    <value>lblCreatedBy</value>
+  </data>
+  <data name="&gt;&gt;lblCreatedBy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreatedBy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCreatedBy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>458, 282</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIAAlEwAAZgAAAICAAAABACAAKAgBAIsTAABAQAAAAQAgAChCAACzGwEAMDAAAAEA
@@ -1805,5 +2307,23 @@
         eTf/u20w/6hNHf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAA
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>50, 50, 50, 50</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Gui Valorant Wallpaer Changer</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

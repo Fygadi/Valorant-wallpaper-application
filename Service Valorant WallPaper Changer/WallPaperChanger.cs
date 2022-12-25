@@ -266,6 +266,7 @@ namespace Service_Valorant_WallPaper_Changer
 			Console.ForegroundColor = ConsoleColor.White;
 			Console.WriteLine();
 
+			valorantWallpaper.Clear();
 			UnnameOriginalWallPaper();
 			timerNextWallPaper.StopTimer();
 		}

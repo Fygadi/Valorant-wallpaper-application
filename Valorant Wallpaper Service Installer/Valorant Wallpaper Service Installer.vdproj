@@ -262,7 +262,7 @@
                         {
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_0D13898336874F78BE18EC3786E86406"
                             {
-                            "Name" = "8:Wallpaper Example"
+                            "Name" = "8:Wallpapers"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
@@ -407,7 +407,7 @@
                                     "Condition" = "8:"
                                     "Transitive" = "11:FALSE"
                                     "ValueTypes" = "3:1"
-                                    "Value" = "8:[ProgramFiles64Folder]\\[ProductName]\\Resources\\Wallpaper Example\\Resources\\Wallpaper Example"
+                                    "Value" = "8:[ProgramFiles64Folder]\\[ProductName]\\Resources\\Wallpapers\\Wallpaper example.mp4"
                                     }
                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C905D3329F5147A69E80CFD13178C98E"
                                     {

@@ -8,6 +8,8 @@ namespace Gui_Valorant_Wallper_Changer
 {
 	public partial class Form1 : Form
 	{
+		private bool lblCreatedByAlreadyShow = false;
+
 		private bool pressingKeyControl = false;
 		private bool pressingKeyShift = false;
 		private bool pressingKeyR = false;
@@ -19,6 +21,22 @@ namespace Gui_Valorant_Wallper_Changer
 			this.FormBorderStyle = FormBorderStyle.FixedSingle;
 			this.MaximizeBox = false;
 			this.MinimizeBox = true;
+		}
+
+		private const int SnapDist = 30;
+		private bool DoSnap(int pos, int edge)
+		{
+			int delta = pos - edge;
+			return delta > 0 && delta <= SnapDist;
+		}
+		protected override void OnResizeEnd(EventArgs e)
+		{
+			base.OnResizeEnd(e);
+			Screen scn = Screen.FromPoint(this.Location);
+			if (DoSnap(this.Left, scn.WorkingArea.Left)) this.Left = scn.WorkingArea.Left;
+			if (DoSnap(this.Top, scn.WorkingArea.Top)) this.Top = scn.WorkingArea.Top;
+			if (DoSnap(scn.WorkingArea.Right, this.Right)) this.Left = scn.WorkingArea.Right - this.Width;
+			if (DoSnap(scn.WorkingArea.Bottom, this.Bottom)) this.Top = scn.WorkingArea.Bottom - this.Height;
 		}
 
 		private enum EnumModeSelected
@@ -186,7 +204,12 @@ namespace Gui_Valorant_Wallper_Changer
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			this.Location = MyRegistry.GetGUILastPosition(this.Size);
-			TxtBoxSelectedPath.Text = MyRegistry.GetWallPaperPath();
+			if (MyRegistry.GetWallPaperPath(out string value))
+				TxtBoxSelectedPath.Text = value;
+			else
+				TxtBoxSelectedPath.Text = "Your File/Folder path\r\n   will be show here";
+
+			TxtBoxTimer.Text = MyRegistry.GetTimerDelay().ToString();
 		}
 
 		private void Form1_FormClosed(object sender, FormClosedEventArgs e) => MyRegistry.SetGUILastPosition(this.Location);
@@ -206,18 +229,32 @@ namespace Gui_Valorant_Wallper_Changer
 				this.Location = new Point(Screen.PrimaryScreen.Bounds.Width / 2 - this.Width / 2,
 										  Screen.PrimaryScreen.Bounds.Height / 2 - this.Height / 2);
 
-			if (pressingKeyControl && pressingKeyShift && pressingKeyA)
+			if (pressingKeyControl && pressingKeyShift && pressingKeyA && !lblCreatedByAlreadyShow)
+			{
 				lblCreatedBy.Visible = !lblCreatedBy.Visible;
+				lblCreatedByAlreadyShow = true;
+			}
 		}
 
 		private void Form1_KeyUp(object sender, KeyEventArgs e)
 		{
 			switch (e.KeyCode)
 			{
-				case Keys.ControlKey: pressingKeyControl = false; break;
-				case Keys.ShiftKey: pressingKeyShift = false; break;
-				case Keys.A: pressingKeyA = false; break;
-				case Keys.R: pressingKeyR = false; break;
+				case Keys.ControlKey:
+					pressingKeyControl = false;
+					lblCreatedByAlreadyShow = false;
+					break;
+				case Keys.ShiftKey:
+					pressingKeyShift = false;
+					lblCreatedByAlreadyShow = false;
+					break;
+				case Keys.A:
+					pressingKeyA = false;
+					lblCreatedByAlreadyShow = false;
+					break;
+				case Keys.R:
+					pressingKeyR = false;
+					break;
 			}
 		}
 	}
